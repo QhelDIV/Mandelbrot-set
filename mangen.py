@@ -2,7 +2,7 @@ import cmath
 import numpy as np
 from matplotlib.pyplot import *
 from config import *
-
+#check whether the series {An} is converge or not when A1=Cx
 def converge(Cx):
     temp=Cx
     lastlenth=cmath.polar(Cx)[0]
@@ -20,7 +20,7 @@ vy=vymin
 xran=np.arange(vxmin,vxmax,xdelta)
 yran=np.arange(vymin,vymax,ydelta)
 print converge(complex(0,-1))
-"""
+
 xarray=[]
 yarray=[]
 for x in xran:
@@ -30,4 +30,3 @@ for x in xran:
             yarray.append(y)
 plot(xarray,yarray,linewidth=1.0)
 show()
-"""

@@ -1,0 +1,10 @@
+This is a python program to generate Mandelbrot-set
+useage:
+python mangen.py
+
+
+If you want to change the size of the image or the other constants ,please change config.py
+
+In this version, the converge function use the following method to check whether the series {An} is converge or not:
+A(n+1)=A(n)^2 + A(1)
+iterate 20 times & checkout whether there is a number's length is greater than 100(This method has many bugs)
