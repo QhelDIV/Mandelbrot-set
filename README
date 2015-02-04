@@ -1,7 +1,7 @@
 This is a python program to generate Mandelbrot-set
 useage:
 python mangen.py
-
+(numpy & matplotlib are required)
 
 If you want to change the size of the image or the other constants ,please change config.py
 
